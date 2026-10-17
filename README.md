@@ -1,59 +1,31 @@
-<h2 align="left">Hi 👋! You can call me Fugomika</h2>
+## Hey, I'm Farras 👋
 
-###
+Software engineer at **[GEOSAT](https://github.com/Geosat-Developers)** in Bogor, Indonesia. I build the Python pipelines that turn satellite AIS data into real-time vessel tracking, plus the Laravel APIs and Vue dashboards on top of it. I also study Computer Science at Telkom University.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fugomika&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fugomika&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+## Now building
 
-###
+- **Geotraking** (work): real-time maritime monitoring from satellite AIS data.
+- **[Bloom](https://github.com/Fugomika/Bloom)**: a cozy life-dashboard PWA for tasks, habits, calories and workouts. Vue 3 + Supabase.
+- **fugotools**: my local toolbox for downloads, PDFs, images and media, with a monochrome UI and a FastAPI + ffmpeg backend.
 
-<img align="right" width="400" src="https://media1.tenor.com/m/cX92mi1p-NYAAAAd/coding-anime.gif"  />
+## Selected work
 
-###
+| Project | What it is |
+| --- | --- |
+| **Geotraking** · GEOSAT | Satellite AIS ingestion, Laravel REST APIs and a Vue frontend for live vessel monitoring |
+| [**Bloom**](https://github.com/Fugomika/Bloom) | A personal dashboard PWA, synced across devices with Supabase |
+| [**Smart Attendance**](https://github.com/Fugomika/smart-attendance) | Flutter attendance app with location and selfie checks, plus a Laravel + Filament admin |
+| [**Cireng Enin**](https://github.com/Fugomika/cireng-enin) | One-page marketing site for a homemade cireng brand |
+| **Techno Infinity** (2023–2025) | Shipped 9 client apps and built the company's Laravel boilerplate |
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="30" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" height="30" alt="codeigniter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-</div>
+## Stack
 
-###
+`PHP` · `Laravel` · `Filament` · `Vue` · `Python` · `TypeScript` · `JavaScript` · `Supabase` · `MySQL` · `Linux`
 
-<div align="left">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-</div>
+## Off the clock
 
-###
+Arch + Neovim + tmux ricer ([dotfiles-ish](https://github.com/Fugomika/my-tmux-conf)), weekend cook, and maker of a [tiny browser game](https://fugomika.github.io).
 
-<br clear="both">
+---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-</picture>
-
-###
+[fugomika.dev](https://fugomika.dev) · [LinkedIn](https://www.linkedin.com/in/farrasft) · [X](https://x.com/fugomika) · [Instagram](https://www.instagram.com/farras.ft) · [farras.ft@gmail.com](mailto:farras.ft@gmail.com)
