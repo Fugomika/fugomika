@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640" role="img" aria-labelledby="title desc">
+<title id="title">Farras Fadhila - Software Engineer</title>
+<desc id="desc">A terminal-style profile card with an ASCII portrait of Farras, a fastfetch-style summary, and a radar sweep tracking ships.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#161B22"/></linearGradient>
+  <linearGradient id="ascii" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E6EDF3"/><stop offset="1" stop-color="#58A6FF"/></linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FB950" stop-opacity="0"/><stop offset="1" stop-color="#3FB950" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58A6FF" stop-opacity="0"/><stop offset="0.5" stop-color="#58A6FF" stop-opacity="0.35"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#C9D1D9" stroke-width="0.6" opacity="0.08"/></pattern>
+  <clipPath id="port"><rect x="24" y="70" width="470" height="520" rx="12"/></clipPath>
+  <style>
+    text { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; white-space: pre; }
+    .ascii { font-size: 6.0px; letter-spacing: 0; fill: url(#ascii); }
+    .eye { fill: #FF5F56; animation: pulse 2.4s ease-in-out infinite; }
+    .chrome { font-size: 12px; fill: #8B949E; }
+    .label { font-size: 11px; letter-spacing: 2px; fill: #8B949E; }
+    .head { font-size: 16px; font-weight: 700; }
+    .sec { font-size: 14px; font-weight: 700; fill: #E6EDF3; }
+    .row { font-size: 14px; fill: #E6EDF3; }
+    .k { fill: #58A6FF; font-weight: 700; }
+    .tag { font-size: 14px; fill: #E6EDF3; }
+    .cursor { fill: #58A6FF; animation: blink 1.1s steps(1) infinite; }
+    .live { fill: #3FB950; animation: pulse 1.6s ease-in-out infinite; }
+    .sweep { animation: spin 4s linear infinite; }
+    .blip { fill: #3FB950; opacity: 0; animation: blip 4s linear infinite; }
+    .scan { animation: scan 6s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    @keyframes blip { 0%, 8% { opacity: 0; } 10% { opacity: 1; } 60% { opacity: 0.15; } 100% { opacity: 0; } }
+    @keyframes scan { from { transform: translateY(0); } to { transform: translateY(460px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .blip { opacity: 1; } }
+  </style>
+</defs>
+<rect x="1" y="1" width="1178" height="638" rx="16" fill="url(#bg)" stroke="#30363D"/>
+<circle cx="24" cy="22" r="6" fill="#FF5F56"/><circle cx="44" cy="22" r="6" fill="#FFBD2E"/><circle cx="64" cy="22" r="6" fill="#27C93F"/>
+<text x="590.0" y="26" text-anchor="middle" class="chrome">farras@arch ~ $ fastfetch</text>
+<circle cx="1084" cy="22" r="4" class="live"/><text x="1094" y="26" class="label">ONLINE</text>
+<line x1="1" y1="44" x2="1179" y2="44" stroke="#30363D"/>
+
+<text x="30" y="62" class="label">PORTRAIT / FARRAS</text>
+<rect x="24" y="70" width="470" height="520" rx="12" fill="#0D1117" stroke="#30363D"/>
+<g clip-path="url(#port)">
+  <rect x="24" y="70" width="470" height="520" fill="url(#grid)"/>
+  <text x="25.0" y="94.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                                                                                                                  </text>
+<text x="25.0" y="100.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                                          .                                                                       </text>
+<text x="25.0" y="106.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                                         ,                                                                        </text>
+<text x="25.0" y="111.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                                .1,:1         :, :,  :;:.                                                         </text>
+<text x="25.0" y="117.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                                0L1Ci1; 1:, tCiiff11tf1::;                                                        </text>
+<text x="25.0" y="122.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                          ., ,i,1 :, i;,;,itCtfL1:;;i::L;.::                                                      </text>
+<text x="25.0" y="128.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                           ,it:iifL;tf1t;:tL1it1:;.  :;it1::                                                      </text>
+<text x="25.0" y="134.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                         ,LLi1fCtLt11LCLtf1::,: ,;.:i::,:t.::                                                     </text>
+<text x="25.0" y="139.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                     .  CGL,  :;:. :,,:i:  ,  ,,iL;i1i:: ,,t;;ti,i:    ,:.                                        </text>
+<text x="25.0" y="145.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                       LL::i11:.i,.;;:;.1L;i,;t: ::,,     :i;fft;i;,.if;,                                         </text>
+<text x="25.0" y="150.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                       .;:L1t:::. :;.;it:,ti:;1: ,    ..  .:  ,  ,;ffii;,,,.                                      </text>
+<text x="25.0" y="156.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                   ,  :LGiii;:::,:  .; :1 ;1 ;11; . .    .,:;111;    ;i;;;,:  .                                   </text>
+<text x="25.0" y="162.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                    :LffL.: .::, .:   ,,, :::;i;:1 ,,,. ..;;i,:1t1i:.:,::,i: ::                                   </text>
+<text x="25.0" y="167.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                   i011CLi  ,    . ,,  , .;,t..,,:;,,;,,,,, t1: :;iti,::;:  ,i,                                   </text>
+<text x="25.0" y="173.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                 ,L0:iG1ii::,  , .    .:;.  ,,   :, ..,;,:: ;i,    ,::,;.::. :;                                   </text>
+<text x="25.0" y="178.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                :1ft i. :::,:.,.     ,:;;.;.   . ,,, ..,:: :;, .::::;:;:;;;,,:tt                                  </text>
+<text x="25.0" y="184.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               ,Lfff,G, ,;:..,   .,.,::. i1ii:,,,,..  ,::;:;,    ,i:,,:i:::. ;;;::,. .                            </text>
+<text x="25.0" y="190.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              ; :Gti.Ct1:, .     . .,::. :  ,::;:,.     ,:,     . ,i : .  ,:,i;;,,.,,                             </text>
+<text x="25.0" y="195.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              @1tCL;:i;;::.     ,   tti;  i1;i,;,,  . .,::,,    ,  ti,      :i:i:.,,                              </text>
+<text x="25.0" y="201.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                           :  8C1::tL;i;:.       .;i;:.   ,tti:,,    ..,ii:,.,, ,. ;:..    ,::..;i, ,.                            </text>
+<text x="25.0" y="206.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                           :t101.,, ft::;;:,.    :::,i1t      . .   .: ;1t1:,, . . ,:,   ,.  , ;:,;:,,                            </text>
+<text x="25.0" y="212.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                             ;L1,,   :, . .  ,:i111tLGG0f1f;    ,. .. ;t1t1;::. ...,  ..,    ,  , ;i,,,                           </text>
+<text x="25.0" y="218.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                           ii 111,.i:.      ,ttG800C0GGG0f;iii;::: . ;tt111ii:: .,.  ,,, .  ,   ,,.,:,;                           </text>
+<text x="25.0" y="223.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                           18:Gi:i;;1;    ..,1C0000G08GLfffi: .  .,:tLt1ft1ii;:,.,.      . ,,   ,,,;:;;,                          </text>
+<text x="25.0" y="229.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                            :f ,:,, ,,,..,  iG888880080GGGGGCftt1111fLLf11t111i:,  ,,   ..,;      .,,:::                          </text>
+<text x="25.0" y="234.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                            .0ti;,.,,   ..;0@@@@@@88888GCCCC00880CCL111ttLLt11;;  .:: .   ..     .  ,,;,                          </text>
+<text x="25.0" y="240.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                             .1t;:.,,  iG@@@@@@@@@@@@@0GCLL0@@@0CLffCGCCCGGGGCt1i:.,;,,          .  ,,,                           </text>
+<text x="25.0" y="246.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                             .itii,   f0@@@@@@@@@@@@@8C0GfC@@@8CfLC08@@80GGLLffLf1;;:               .,,.                          </text>
+<text x="25.0" y="251.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               :;::, f@@@@@@@@@@@80@@0CGLL@@@0GGGG00ff1i::,,,.,tLLfti:,              ,                            </text>
+<text x="25.0" y="257.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              ;1t;; :@@@@@@@@@@@@@@@@0LLC0@8@CfGfi:         .,,:ifLftti;,            .                            </text>
+<text x="25.0" y="262.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              t1:.  @@@@8CLCG8@@@8@@8G1C80808L:f1,:,,::itfLLCLL1;;tCLftt1:      . , . ,                           </text>
+<text x="25.0" y="268.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                ;  1@@@0GCfti,.    :1t108CCLCf;ii1ii1tLCGGGGG0GCLttfLLLLft:      ,, ..                            </text>
+<text x="25.0" y="274.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                             C@@@@@@08@8@80LtfffLLi,::tGCLLft1i;ii1fCG0GGGGGCGGGCCLfLCLCLLt.     ., ,,                            </text>
+<text x="25.0" y="279.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                            8@@0@08t @@8@@GL1:,::1GGffLLCCCLti;itLG00CCGCGG000CCGCLLLCCLCLL:    ...  ,                            </text>
+<text x="25.0" y="285.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                             G@C8,0L1@@@@@8GCLf1i:,fCL@@@@8GftLCfffffLGGGGGLtfCGGG0GCGGCGLLi     ,., .                            </text>
+<text x="25.0" y="290.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              t@t:GCC@@@G00CL1i;;i;:fL@0880LLtCi;ttiii:,,,;tLffLLLC0GCG0CG0i   . ..,.                             </text>
+<text x="25.0" y="296.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              i@i11 8@80f1:;    . .;G@L0@8GtG@t;fi .CC,   :; :i1tffL8LLGGf1L      .,.                             </text>
+<text x="25.0" y="302.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                              ,@t;1,@@@G;itti;i;::;f@@0@@88L8@Lff;:1CG,  ,CL:,:;ifCL00CG8C L1      ,                              </text>
+<text x="25.0" y="307.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               @0,i;@@@@@@8GLftttfL@0G@000GLC0fLfft1;ittttt1ffLCCGGC08LGLCC        ,                              </text>
+<text x="25.0" y="313.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               G@.,C@@@@@@80GCCGG0@@0@8@@@GfC@ffGCLttt1i1ii1tLCGGGGC@8CCCLC;   .,  .                              </text>
+<text x="25.0" y="318.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                @G @@@@@@@888088@8@@88@@@@0Lt00GGCCLLLLLCCCGG00000GG@GGLCCC; .tfCt                                </text>
+<text x="25.0" y="324.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                f@;@@@@@@@@@@@80G@@8@@@@@@@Gt080LLCGGCCCCCG0888000G@8CGGCCC,  f,:C                                </text>
+<text x="25.0" y="330.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                 @@@@@@@@@@@0GG0@@8@@@@@@@8@0tfCftLCGG00000888000G8@GGGGCCf  :G;;C                                </text>
+<text x="25.0" y="335.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                ,@@@@@@@@@@@@@@@CL@@@@@@@@8@@G1C0ffLC00088000000G8@000GGCCf  ;@1Lt                                </text>
+<text x="25.0" y="341.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                i@@@@@@@@@@@8GCi1@@@@@@@8@@@88G1tG0GGG0000000000880000GCLCf   CLG                                 </text>
+<text x="25.0" y="346.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                i@@@@@@@@@@8GCfL@@@@@@80GCCG0@@@;:LG0008888888888000GGGCLGt ..L@i                                 </text>
+<text x="25.0" y="352.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                ;@@@@@@@@@@0GG1@@@8@@0CffLfL088@8:itfLCGGG0000000GGGGGGCLC1  t88                                  </text>
+<text x="25.0" y="358.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                .@@@@@@@@@80GL1@8,  fGft1;, ,1CG0;itfLCCCCCCCCGGG00GGCCLLCi ;t01                                  </text>
+<text x="25.0" y="363.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               .,@@@@@@@@@80CG00G1C800Lf1;;: :LLt;1fLGG0GGGGGGGGGGGGGCCLLL. :C8                                   </text>
+<text x="25.0" y="369.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               ;.8@@@@@@@@@08@@@@0800L1GCf1t1;::iLCCG000GGGGCGGGGCGGGCLfL1  f@G                                   </text>
+<text x="25.0" y="374.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                 C@@@@@@@@@@@@@@88@@0Cf0GCf11ttL080G0000GGGGCCGCCCGCCLLfC: :G@G                                   </text>
+<text x="25.0" y="380.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                :t@@@@@@@@@@@@@@@@@@888@@8GCLC08880G000G00GCGGGGCCCCCLfLf  ;fG                                    </text>
+<text x="25.0" y="386.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                ;:@@@@@@@@@@@@@@@@@@@@@@08@80CGG0000GGGGGGGCCCCCCGCCLLfL;                                         </text>
+<text x="25.0" y="391.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                ,,@@@@@@@@@@@@@0L8@G0Lt1ttfG@0CLCCGGGGCCCCCLCCCCLLCCLLf1                                          </text>
+<text x="25.0" y="397.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                .:t@@@@@@@8CiGfiLC80GCtffti;t08CCfLCfCCCCLCCCCLLLLLLLLt, .                                        </text>
+<text x="25.0" y="402.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                .,:@@8@@@0L1:,1L1ittt11t:,;1iiLLtffLfLCLLLLLLLfLffffLt:.                                          </text>
+<text x="25.0" y="408.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                 :,L@@@@8GL0@@@@@@8L11::,,,;::,.itfffLLLLfLLfLfffffft:. .                                         </text>
+<text x="25.0" y="414.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                 .,;@@@@8G0@@@@@@880@@000GLfi::;1tffLLfLffffffffffft:                                             </text>
+<text x="25.0" y="419.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                                  ..C@@@88@@@@@@@00080CLfftttttt11ttffffftttftfffti, . :,,                                        </text>
+<text x="25.0" y="425.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                               , ;t;;C0@@0@@@8000G00Cf11111tttft1tttttttttfftfft1;:  . ,1tf1t1i:,,                                </text>
+<text x="25.0" y="430.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                           ,iLf:t0Ci,1G0@88888Cti::;;;;;;;;i1ffftt111tttttttttt1;,     ::;i1i .:itiiii:                           </text>
+<text x="25.0" y="436.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                      :1tfLi,1f08C1;, tL8@08880GCt111111i11ttttt1ttt1ttttt11i;;:       ..::;1;       :1LCti                       </text>
+<text x="25.0" y="442.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">                  ;tCC;,:,  t88GLf1:,,i1f@@8@@@@800GGCLLfLftttt1tffttt1t11i;:,,,    .    ,:;;1fff;   .    iLL,                    </text>
+<text x="25.0" y="447.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">               ,Ct;::     ,G00GL1:.,::.,:C@8@@@@8@00GCCCLLfftttttfftt1;i1;;,,.,.   .f     .,:;:i1ft,      :1tLL                   </text>
+<text x="25.0" y="453.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">              C@f,     :itGC0Gf1;. . :,  t@08@8800GGCCCLLffttffffff11i,.:,:,      ;tL         ,;:;i1;.     .  fG1                 </text>
+<text x="25.0" y="458.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">           .L@0 ,,  ;8@0GGG8Gfi::::   ,:.,1GC0@8GCLLCLftttf1fffftt1::,,, .,      :11f,     .,:i:::;;::,      111L1                </text>
+<text x="25.0" y="464.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">          C@@0i   ,G@0CLG0G1::i:      ,:,:.;1fLCCft1ft11ttt1ii11;::.. .,       .;111t1       ::::::i1i;:      .fftti              </text>
+<text x="25.0" y="470.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">         G8CGft. :t1LCLGCi:fCf1,       ,::.,,::;1tt11i11i;;:,,,,. .          ,;111111i        ,;;;i;:;1tttt1; iLt11Lf             </text>
+<text x="25.0" y="475.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">        G@L00Gfi    itGt:f0C1,         ,:,::. ., ,,;i:;,  ..,                ;111111t:         ,:;;:,  .:,::: ;ittiitL            </text>
+<text x="25.0" y="481.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">       .@CCCCftL1,;tifti08t:.  .        .,,:,,          ..                ;:i111111ti        ., ,,:;i;.       i1tt1i;f:           </text>
+<text x="25.0" y="486.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">     :tG0ffLCLCtifCG0CfGL;::.  .      .... :: ,::,:  .                   :ii111111ti          :,..:;;ii:.    1t;;1i1:i,           </text>
+<text x="25.0" y="492.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">;tG8@@8LCLLtLCL1Lt:i1i:    . ,,    .. ...,,.,,,  ,. .. .               ,;iii111111i            :::::::::;:;;:1t1;1i::,:fLL1:      </text>
+<text x="25.0" y="498.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">G@CGL1ii0fifCf:1f,,::,   ,::.,    .,,. ,,,.. ,11,..                ,;i;iii1i11111;             ,.::,,;i:::;;.:11i1i., ,;i1fLCL1:  </text>
+<text x="25.0" y="503.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">t1Cf1fC1CCLC1:1C1i:::;;itt; ..    .,.,..,,...  :tCL1:;.        ,::;;iiiii111111i:              ., :;::,;;ii::;;::11.  ;,:;iiiitLL1</text>
+<text x="25.0" y="509.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">fGL1CCi it1;:1Ltt;::::i1i,:.,     .,. ,  .....   ,tGCCft1i;;;;;;;;;;iii1111111i,                ,,,;:,,:::,.1;;:,ii .,:;:::i1i;:i1</text>
+<text x="25.0" y="514.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">LLtf1:, :CtL1tit;ii,,;;:,,::       ,,  ,. .... .   ,1CCLftt111111111111111tt1:                 . ,;::;;;,  i1;::,:i ,:::::,,:i1i;i</text>
+<text x="25.0" y="520.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">LLti;,  ,8tiit1:it1iiift;i   .     ,,.  ,.  ....      ifLLLftttttttttffLLL1:                   ,, ,,;,::  ,i:;;iiit. :::::::::;ii;</text>
+<text x="25.0" y="526.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">fti;:   ,ftftttii;t1,1ii,  :,.     ,,.   ,..  ..        .;1fLCCCLCCLLL1i,                      :,...:;1;,:i;,.:,,:i, ,:;;;::,:::;;</text>
+<text x="25.0" y="531.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">t1;,. ..;fC;i1fLLCfi.i, :,,;,,     .,,   ..,.                  ....                           .,,.::.:; :11;ii;ii:1: ,,:;i;::,:::;</text>
+<text x="25.0" y="537.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">1;:,   i1,L0G1i:,:  . :1, ,;,,  . ..:,     ....                                               ,:,. :::,;.:;iiii1ti;   .,,;i;::,::;</text>
+<text x="25.0" y="542.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">i:,   :f; ;0;.,. :::i:1. .:;,,  ....,,.     ..                                      .         :::, .,:.;.     ,:11,   .,,:;i:,,,::</text>
+<text x="25.0" y="548.4" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">;:.  .f;   G  Ci:Cf;:i:  :;;,,   .  ,,.       .                                               :,,,,..,,i::1:,;i ;;:,   .,::;i:,:,:</text>
+<text x="25.0" y="554.0" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">:,   tt,   t  t,.:, ;;. ,:;:,,    ..,:,       ..                                  .           :,:,,,,,,:,;1,;i: ;, ,,   .,:::i;,,:</text>
+<text x="25.0" y="559.6" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">,.  if,.   1  i;,,:,::  :;;:,,  ....,,.        ..                                ..           :::,,,,:;, ,,.,i.:i  ,:.  .,,:::i;,,</text>
+<text x="25.0" y="565.2" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">,  :f:.  .:f, 11,;t;,, ,:;;:,.    . .,,         ...                             .            .:::,,,,,;,;1,:1; ;.   ,:   ,:::::i;:</text>
+<text x="25.0" y="570.8" class="ascii" textLength="468.0" lengthAdjust="spacingAndGlyphs">  .1;,..,:i;; :;,:;,...,:;;:,      .,,,.                                                     .:::,,,,,,,::,:;,,:    .,,  .,:::,:;:</text>
+  <rect x="24" y="70" width="470" height="60" fill="url(#scan)" class="scan"/>
+</g>
+
+<text x="516" y="62" class="label">SYSTEM / BUILDER</text>
+<rect x="510" y="70" width="646" height="520" rx="12" fill="#0D1117" stroke="#30363D"/>
+
+<g>
+  <circle cx="1092" cy="132" r="40" fill="#3FB950" fill-opacity="0.05" stroke="#3FB950" stroke-opacity="0.55"/>
+  <circle cx="1092" cy="132" r="26.4" fill="none" stroke="#3FB950" stroke-opacity="0.25"/>
+  <circle cx="1092" cy="132" r="13.2" fill="none" stroke="#3FB950" stroke-opacity="0.25"/>
+  <path d="M1052 132 H1132 M1092 92 V172" stroke="#3FB950" stroke-opacity="0.2"/>
+  <g class="sweep" style="transform-origin:1092px 132px">
+    <path d="M1092 132 L1132 132 A40 40 0 0 0 1122.6 106.3 Z" fill="url(#sweep)"/>
+    <line x1="1092" y1="132" x2="1132" y2="132" stroke="#3FB950" stroke-width="1.5"/>
+  </g>
+  <circle cx="1108.9" cy="146.1" r="2.6" class="blip" style="animation-delay:0.0s"/>
+<circle cx="1063.0" cy="145.5" r="2.6" class="blip" style="animation-delay:1.1s"/>
+<circle cx="1087.2" cy="118.8" r="2.6" class="blip" style="animation-delay:2.3s"/>
+<circle cx="1110.0" cy="110.6" r="2.6" class="blip" style="animation-delay:3.1s"/>
+</g>
+<text x="1092" y="190" text-anchor="middle" class="label">AIS</text>
+<text x="534" y="110" class="head"><tspan fill="#58A6FF">farras</tspan><tspan fill="#8B949E">@</tspan><tspan fill="#1793D1">arch</tspan><tspan fill="#30363D"> ----------------------------------------</tspan></text>
+<text x="534" y="134" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Name</tspan><tspan fill="#8B949E">: .........</tspan>Farras Fadhila</text>
+<text x="534" y="158" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Role</tspan><tspan fill="#8B949E">: .........</tspan>Software Engineer @ GEOSAT</text>
+<text x="534" y="182" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Based</tspan><tspan fill="#8B949E">: ........</tspan>Bogor, Indonesia</text>
+<text x="534" y="206" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">OS</tspan><tspan fill="#8B949E">: ...........</tspan>Arch Linux (btw)</text>
+<text x="534" y="230" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Shell</tspan><tspan fill="#8B949E">: ........</tspan>zsh + tmux + neovim</text>
+<text x="534" y="268.4" class="sec">- NOW.BUILDING <tspan fill="#30363D">------------------------------------</tspan></text>
+<text x="534" y="292.4" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Geotraking</tspan><tspan fill="#8B949E">: ...</tspan>Satellite AIS vessel tracking</text>
+<text x="534" y="316.4" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Bloom</tspan><tspan fill="#8B949E">: ........</tspan>Cozy life-dashboard PWA</text>
+<text x="534" y="340.4" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">fugotools</tspan><tspan fill="#8B949E">: ....</tspan>Local media &amp; PDF toolbox</text>
+<text x="534" y="378.79999999999995" class="sec">- STACK <tspan fill="#30363D">-------------------------------------------</tspan></text>
+<text x="534" y="402.79999999999995" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Back</tspan><tspan fill="#8B949E">: .........</tspan>PHP / Laravel / Filament / Python</text>
+<text x="534" y="426.79999999999995" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Front</tspan><tspan fill="#8B949E">: ........</tspan>Vue / TypeScript / Supabase</text>
+<text x="534" y="450.79999999999995" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Fuel</tspan><tspan fill="#8B949E">: .........</tspan>Cireng, kopi, lo-fi</text>
+<rect x="534" y="476.19999999999993" width="22" height="16" rx="2" fill="#FF5F56"/><rect x="560" y="476.19999999999993" width="22" height="16" rx="2" fill="#FFBD2E"/><rect x="586" y="476.19999999999993" width="22" height="16" rx="2" fill="#27C93F"/><rect x="612" y="476.19999999999993" width="22" height="16" rx="2" fill="#58A6FF"/><rect x="638" y="476.19999999999993" width="22" height="16" rx="2" fill="#BC8CFF"/><rect x="664" y="476.19999999999993" width="22" height="16" rx="2" fill="#39C5CF"/><rect x="690" y="476.19999999999993" width="22" height="16" rx="2" fill="#E6EDF3"/><rect x="716" y="476.19999999999993" width="22" height="16" rx="2" fill="#8B949E"/>
+<text x="534" y="531.1999999999999" class="tag"><tspan fill="#8B949E">&gt; </tspan>fake software engineer, real satellites<tspan class="cursor">_</tspan></text>
+
+<text x="590.0" y="622" text-anchor="middle" class="label">SATELLITE DATA / LARAVEL / VUE / PYTHON / ARCH BTW</text>
+</svg>

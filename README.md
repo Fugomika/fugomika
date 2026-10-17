@@ -1,10 +1,10 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark-mobile.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/hero-light-mobile.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
-    <img src="./assets/hero/hero-dark.svg" alt="Terminal card with an ASCII portrait of Farras, a fastfetch-style summary, and a radar tracking ships" width="100%">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/hero-photo-dark-mobile.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/hero-photo-light-mobile.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-photo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-photo-light.svg">
+    <img src="./assets/hero/hero-photo-dark.svg" alt="Terminal card with an ASCII portrait of Farras from a photo, a fastfetch-style summary, and a radar tracking ships" width="100%">
   </picture>
 </p>
 

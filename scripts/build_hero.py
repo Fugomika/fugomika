@@ -1,7 +1,7 @@
 """Build the profile hero SVGs (dark/light, desktop/mobile) from avatar.png.
 
-Usage: python3 scripts/build_hero.py path/to/avatar.png
-Writes assets/hero/hero-{dark,light}{,-mobile}.svg
+Usage: python3 scripts/build_hero.py path/to/avatar.png [--photo]
+Writes assets/hero/hero-{dark,light}{,-mobile}.svg (hero-photo-* with --photo)
 """
 import colorsys
 import math
@@ -63,6 +63,32 @@ def subject_mask(img):
             background |= x > w * 0.79 and y < h * 0.54
             mp[x, y] = 0 if background else 255
     return mask.filter(ImageFilter.MedianFilter(9))
+
+
+def photo_art(path, cols, rows, char_aspect, invert=False):
+    """Return rows of [(char, False)] from a portrait shot on a black background."""
+    src = ImageOps.exif_transpose(Image.open(path)).convert("L")
+    w, h = src.size
+    src = src.crop((0, 0, w, min(h, int(w * 1.55))))
+    # how many columns the photo needs to keep its aspect in this character grid
+    used = min(cols, round(rows * src.width / src.height / char_aspect))
+    img = src.resize((used, rows), Image.LANCZOS).filter(ImageFilter.SHARPEN)
+    gray = ImageEnhance.Contrast(ImageOps.autocontrast(img, cutoff=1)).enhance(1.2).load()
+    pad = (cols - used) // 2
+    out = []
+    for y in range(rows):
+        row = [(" ", False)] * pad
+        for x in range(used):
+            lum = gray[x, y] / 255
+            if lum < 0.07:  # the black backdrop drops out entirely
+                row.append((" ", False))
+                continue
+            if invert:
+                lum = 1 - lum
+            row.append((RAMP[min(len(RAMP) - 1, int(lum ** 0.9 * len(RAMP)))], False))
+        row += [(" ", False)] * (cols - pad - used)
+        out.append(row)
+    return out
 
 
 def ascii_art(avatar, cols, rows):
@@ -160,16 +186,16 @@ def radar(cx, cy, r, t):
 </g>'''
 
 
-def build(avatar, theme, mobile):
+def build(avatar, theme, mobile, photo=False):
     t = THEMES[theme]
     if mobile:
-        W, H = 620, 1000
+        W, H = 620, 1060
         port = (20, 70, 580, 470)
         art_cols, art_rows, asz, alh = 140, 82, 6.4, 5.4
         info_x, info_y, info_w = 40, 600, 50
         rad = (530, 600, 34)
         footer_y = H - 22
-        info_panel = (20, 560, 580, 400)
+        info_panel = (20, 560, 580, 460)
         info_lh = 21
     else:
         W, H = 1180, 640
@@ -182,7 +208,10 @@ def build(avatar, theme, mobile):
         info_lh = 24
 
     px, py, pw, ph = port
-    art = ascii_art(avatar, art_cols, art_rows)
+    if photo:
+        art = photo_art(avatar, art_cols, art_rows, asz * 0.6 / alh, invert=theme == "light")
+    else:
+        art = ascii_art(avatar, art_cols, art_rows)
     char_w = asz * 0.6
     ax = px + (pw - art_cols * char_w) / 2
     ay = py + (ph - art_rows * alh) / 2 + alh
@@ -250,13 +279,16 @@ def build(avatar, theme, mobile):
 
 
 def main():
-    avatar = sys.argv[1] if len(sys.argv) > 1 else "avatar.png"
+    args = [a for a in sys.argv[1:] if a != "--photo"]
+    photo = "--photo" in sys.argv
+    avatar = args[0] if args else "avatar.png"
+    prefix = "hero-photo" if photo else "hero"
     out = Path(__file__).resolve().parent.parent / "assets" / "hero"
     out.mkdir(parents=True, exist_ok=True)
     for theme in THEMES:
         for mobile in (False, True):
-            name = f"hero-{theme}{'-mobile' if mobile else ''}.svg"
-            (out / name).write_text(build(avatar, theme, mobile))
+            name = f"{prefix}-{theme}{'-mobile' if mobile else ''}.svg"
+            (out / name).write_text(build(avatar, theme, mobile, photo))
             print("wrote", out / name)
 
 
