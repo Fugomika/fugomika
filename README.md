@@ -1,3 +1,13 @@
+<p align="center">
+  <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark-mobile.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/hero-light-mobile.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
+    <img src="./assets/hero/hero-dark.svg" alt="Terminal card with an ASCII portrait of Farras, a fastfetch-style summary, and a radar tracking ships" width="100%">
+  </picture>
+</p>
+
 ## Hey, I'm Farras 👋
 
 Software engineer at **[GEOSAT](https://github.com/Geosat-Developers)** in Bogor, Indonesia. I build the Python pipelines that turn satellite AIS data into real-time vessel tracking, plus the Laravel APIs and Vue dashboards on top of it. I also study Computer Science at Telkom University.
@@ -28,4 +38,4 @@ Arch + Neovim + tmux ricer ([dotfiles-ish](https://github.com/Fugomika/my-tmux-c
 
 ---
 
-[fugomika.dev](https://fugomika.dev) · [LinkedIn](https://www.linkedin.com/in/farrasft) · [X](https://x.com/fugomika) · [Instagram](https://www.instagram.com/farras.ft) · [farras.ft@gmail.com](mailto:farras.ft@gmail.com)
+[fugomika.dev](https://fugomika.dev) · [LinkedIn](https://www.linkedin.com/in/abdurrahmanfarrasft) · [X](https://x.com/fugomika) · [Instagram](https://www.instagram.com/farras.ft) · [farras.ft@gmail.com](mailto:farras.ft@gmail.com)

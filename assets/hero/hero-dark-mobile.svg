@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="1000" viewBox="0 0 620 1000" role="img" aria-labelledby="title desc">
+<title id="title">Farras Fadhila - Software Engineer</title>
+<desc id="desc">A terminal-style profile card with an ASCII portrait of Farras, a fastfetch-style summary, and a radar sweep tracking ships.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#161B22"/></linearGradient>
+  <linearGradient id="ascii" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E6EDF3"/><stop offset="1" stop-color="#58A6FF"/></linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FB950" stop-opacity="0"/><stop offset="1" stop-color="#3FB950" stop-opacity="0.45"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58A6FF" stop-opacity="0"/><stop offset="0.5" stop-color="#58A6FF" stop-opacity="0.35"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#C9D1D9" stroke-width="0.6" opacity="0.08"/></pattern>
+  <clipPath id="port"><rect x="20" y="70" width="580" height="470" rx="12"/></clipPath>
+  <style>
+    text { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; white-space: pre; }
+    .ascii { font-size: 6.4px; letter-spacing: 0; fill: url(#ascii); }
+    .eye { fill: #FF5F56; animation: pulse 2.4s ease-in-out infinite; }
+    .chrome { font-size: 12px; fill: #8B949E; }
+    .label { font-size: 11px; letter-spacing: 2px; fill: #8B949E; }
+    .head { font-size: 16px; font-weight: 700; }
+    .sec { font-size: 14px; font-weight: 700; fill: #E6EDF3; }
+    .row { font-size: 14px; fill: #E6EDF3; }
+    .k { fill: #58A6FF; font-weight: 700; }
+    .tag { font-size: 14px; fill: #E6EDF3; }
+    .cursor { fill: #58A6FF; animation: blink 1.1s steps(1) infinite; }
+    .live { fill: #3FB950; animation: pulse 1.6s ease-in-out infinite; }
+    .sweep { animation: spin 4s linear infinite; }
+    .blip { fill: #3FB950; opacity: 0; animation: blip 4s linear infinite; }
+    .scan { animation: scan 6s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    @keyframes blip { 0%, 8% { opacity: 0; } 10% { opacity: 1; } 60% { opacity: 0.15; } 100% { opacity: 0; } }
+    @keyframes scan { from { transform: translateY(0); } to { transform: translateY(410px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .blip { opacity: 1; } }
+  </style>
+</defs>
+<rect x="1" y="1" width="618" height="998" rx="16" fill="url(#bg)" stroke="#30363D"/>
+<circle cx="24" cy="22" r="6" fill="#FF5F56"/><circle cx="44" cy="22" r="6" fill="#FFBD2E"/><circle cx="64" cy="22" r="6" fill="#27C93F"/>
+<text x="310.0" y="26" text-anchor="middle" class="chrome">farras@arch ~ $ fastfetch</text>
+<circle cx="524" cy="22" r="4" class="live"/><text x="534" y="26" class="label">ONLINE</text>
+<line x1="1" y1="44" x2="619" y2="44" stroke="#30363D"/>
+
+<text x="26" y="62" class="label">PORTRAIT / FARRAS</text>
+<rect x="20" y="70" width="580" height="470" rx="12" fill="#0D1117" stroke="#30363D"/>
+<g clip-path="url(#port)">
+  <rect x="20" y="70" width="580" height="470" fill="url(#grid)"/>
+  <text x="41.2" y="89.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                @@@@@8 @@  8@@@@     8@@G@@@0f0@    8@@@@           0@@@                                    </text>
+<text x="41.2" y="94.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                @                @@L@@G@@00@@@@0   0@@@.@@@;:0@G   @@       8         @                                     </text>
+<text x="41.2" y="99.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                             @@@@                @@.t@C@@00@@GG00@@@@f..C:..@@@@@@@@8      @@    80                                         </text>
+<text x="41.2" y="105.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                             @@@                 @t..@@0@08@@@@@@@@f..........:;:,.8.t@@  @@8  0@80                                         </text>
+<text x="41.2" y="110.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                @@...1@@@G@0.fff1,.................@.@@@@LC@G  8@08                                         </text>
+<text x="41.2" y="116.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                               f:@....t@@@@C.,.,,..................@......0@G08@@G@                                         </text>
+<text x="41.2" y="121.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                               f.8:.....0@@@.......................@.:::,.@@0@  @@                                          </text>
+<text x="41.2" y="126.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                           @   t..........L@.......................@.::;.L@@@   @@                                          </text>
+<text x="41.2" y="132.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                           @@@@C...................................@.:.,:.1@i   @                                           </text>
+<text x="41.2" y="137.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                  @       @1.C@C..................................,@i@8.:.:@           @                                    </text>
+<text x="41.2" y="143.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                  @@     @@@.,....................................;G@f@i,.L@          @@                                    </text>
+<text x="41.2" y="148.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                               @@ @@@   @L.;;;.....................................@.@8.:.@@f   @@@   @@                                    </text>
+<text x="41.2" y="153.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                   @@@ 8@;.:1,............................,tGL:....L@..:;.C@10@@0Lf@  @                                     </text>
+<text x="41.2" y="159.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @@,:i:.........................C@@@    @@@,..0@.,::.@C0@11Lt@                                        </text>
+<text x="41.2" y="164.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @@.;,.1@@@@@0L,..............@@@          @C..C@.,;.i@@tG@@@                                         </text>
+<text x="41.2" y="170.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                        t.,;@@       @@;.........t;@@             @@..C@.:.i@@@                                             </text>
+<text x="41.2" y="175.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @:.:@           @0........8.@    @@@@ @@    @L..@0..:@@@                                             </text>
+<text x="41.2" y="180.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @,.@             8@.......@.@@@@Li:....:10@@@@...@i.@0@0                                             </text>
+<text x="41.2" y="186.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @.;@  @@@@8@@@@ @@L.......,.@@i............1@@...,@@   @     G@                                      </text>
+<text x="41.2" y="191.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                      @@.@@@8;........t8G...............;1LCCGG0Gt.,.....8    @G    0                                       </text>
+<text x="41.2" y="197.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                      @i.f@.........................t@@@@@@@GCCLC@@@@@i...    @C    0                                       </text>
+<text x="41.2" y="202.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                      @i1LGG@@@@@@@@@Ct...........f@8GfLGCG00880GCt..@@G..@    G    0                                       </text>
+<text x="41.2" y="207.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                      @@@GCCtt1;:;;;1t@@8........0@,8@8<tspan class="eye">Cfi;:,:;;;t0</tspan>@L@.@@tf    8    G                                       </text>
+<text x="41.2" y="213.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     @,.;tG@@8G@@@@@@@t.G@......;@.@t<tspan class="eye">...,..::..::,..</tspan>@i,.@@0@   @C0@@@@                                      </text>
+<text x="41.2" y="218.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                    @:.@@.....88.....i@@.@L.....Lt0<tspan class="eye">L.;i;,</tspan>L@@@@f<tspan class="eye">,:ii,1</tspan>0,.C;.    @8@@fL@@                                     </text>
+<text x="41.2" y="224.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                    ,.@ @...;@.........0@.@f@@@i@i@<tspan class="eye">.;i:,</tspan>@@C<tspan class="eye">LL</tspan>C@@<tspan class="eye">,:i;;</tspan>@.f@@i     @f....G@                                    </text>
+<text x="41.2" y="229.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                   @..@  ..:@...........@iGC:,:fGt@<tspan class="eye">.ii.</tspan>@@<tspan class="eye">tLLCLt</tspan>@@<tspan class="eye">.i;:</tspan>@;@1@@     8.:.:@:.8                                   </text>
+<text x="41.2" y="234.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                    @,@  ..@............iG.:fCCf.f@<tspan class="eye">.i:;</tspan>@<tspan class="eye">fLL</tspan>G<tspan class="eye">LLCf</tspan>@<tspan class="eye">i:;:</tspan>@;@.,,@   @....@:.:.8                                  </text>
+<text x="41.2" y="240.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                    @,@  .,C.............G@@8CG8@f@<tspan class="eye">.1.</tspan>C@<tspan class="eye">fL</tspan>8@@<tspan class="eye">CCf</tspan>@8<tspan class="eye">.;:</tspan>@10...@   @,@.f8.i::.@                                 </text>
+<text x="41.2" y="245.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     .@  .Gi.....0@C....,8@.....8L@<tspan class="eye">.i,</tspan>G8<tspan class="eye">LL</tspan>@@@G<tspan class="eye">LL</tspan>8@<tspan class="eye">.;;</tspan>@CG...@   f.8.@;,,@@C1                                 </text>
+<text x="41.2" y="251.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     .@  .@:.....@@@....:0@,i11,@L@<tspan class="eye">.i,t</tspan>@<tspan class="eye">fL</tspan>C@0<tspan class="eye">LCf</tspan>@G<tspan class="eye">,:t</tspan>L01...    t..:@,,G@  1@                                </text>
+<text x="41.2" y="256.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     :@  .@:......L.....LC@,....8C@<tspan class="eye">.;;,</tspan>@<tspan class="eye">CLCLLCCf</tspan>@:<tspan class="eye">:,</tspan>Gt@:...    C@@@G.:@f  CG                                </text>
+<text x="41.2" y="261.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     fL  .Lt............8L@.....tC8<tspan class="eye">1:i,f</tspan>@<tspan class="eye">LfLLft</tspan>@8<tspan class="eye">.i.</tspan>@i@....   @...0f.t@,@ 88                                </text>
+<text x="41.2" y="267.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     @;  ..@............@G@.....:@:@<tspan class="eye">.i;.</tspan>L@@0G@@0<tspan class="eye">.;:;</tspan>@f@....   @,i.0t.0@;@CC@                                </text>
+<text x="41.2" y="272.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     @.@@..@;..........,G0@......@;@<tspan class="eye">f.ii.;</tspan>G@@0<tspan class="eye">t.;;.</tspan>@;@,....@  @.i,@,,@@;8fL@                                </text>
+<text x="41.2" y="278.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     @Li@...@,.........@,@@1C,...i@.@L<tspan class="eye">.,;:,,,,:;,.0</tspan>G;@.....0  @.;,@,:@@i0fC@                                </text>
+<text x="41.2" y="283.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     L@1G0...@L......t@;@@LfC@C...0@.@@<tspan class="eye">t,.,,,,,:t</tspan>@C;@......8  @.;,@,:@@8@1G@                                </text>
+<text x="41.2" y="288.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     t.@;0@f..G@@@@@@@,@0.....t,...@@,i@@8<tspan class="eye">CLL</tspan>G88@11@.......@  @.i,@,:@@i8tG@                                </text>
+<text x="41.2" y="294.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     C.@@0t080LfG8Ct1L@@............;@@t;;111t;;10@........@  @.;,@,:@@i@tCG                                </text>
+<text x="41.2" y="299.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     G.@.f@@8@8800@@@.C1..............,@@@@@@@@@@,....G@..:    .i,@,:@@;@tC8                                </text>
+<text x="41.2" y="305.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     8.@.,...tff1,....@i.........1@..............@G...@@.:@       @,.@  CCG                                 </text>
+<text x="41.2" y="310.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                     @1@.1,...........0@.........1@...............@G....1@         1.G8 L@                                  </text>
+<text x="41.2" y="315.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                      0L.1............,@@.......i@:................@C..@           C.;@@@                                   </text>
+<text x="41.2" y="321.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                      @i,;.............:@@@@@@@@@1..................@i@            @.,t0                                    </text>
+<text x="41.2" y="326.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       i:;...............;tLCfti.....................@               :,                                     </text>
+<text x="41.2" y="332.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       ;:;..........................................G8                                                      </text>
+<text x="41.2" y="337.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       i,;.................................t@@:.....@L                  @                                   </text>
+<text x="41.2" y="342.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       f,;.......LL.....................,CL..1@.....@t                                                      </text>
+<text x="41.2" y="348.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       0.i......t@...................t@@@00@t.L8....@1:;                                                    </text>
+<text x="41.2" y="353.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @.i......@..fCGft;,.....,itG@@@L....,@.1@....@;,f        C                                           </text>
+<text x="41.2" y="359.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                       @,i......0.L@@i0@@@@@@@@@@8C,.......@@.,i....@:,G                                                    </text>
+<text x="41.2" y="364.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                        ::......:.C@C....................C@@@.......@,,8                                                    </text>
+<text x="41.2" y="369.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                        L,:.......;@@0........,.....@,1@@@L@L......:@,,@                                                    </text>
+<text x="41.2" y="375.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                        @.i........@@@@@@@i,.t@:.iG@@@@8CL@@.......:@.:                                                     </text>
+<text x="41.2" y="380.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                         ;;.........@0L0C@@@@@@@@@@@@@@@@@@........:             L                                          </text>
+<text x="41.2" y="386.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                         L.:........:@8CG@@@@@@@@@@t;;:<tspan class="eye">.</tspan>@@.........G             @@                                         </text>
+<text x="41.2" y="391.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                         @,;.........,@@@1;iiii8t::<tspan class="eye">;;</tspan>,i@@..........@             0,                                         </text>
+<text x="41.2" y="396.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                          0.:..........@@;,,.,,,.,<tspan class="eye">:</tspan>;<tspan class="eye">t</tspan>@@f..........@               1                                         </text>
+<text x="41.2" y="402.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                          @i:...........;@@@@8CG8@@@@1...........L@               C                                         </text>
+<text x="41.2" y="407.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                           @.:.............:C@@@@L,.............:@                .                                         </text>
+<text x="41.2" y="413.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                            0.:.................................@                 :@                                        </text>
+<text x="41.2" y="418.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                            @L.,...............................@                  .@                                        </text>
+<text x="41.2" y="423.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                             @1...........@@i....;G@0.........@                  @L@                                        </text>
+<text x="41.2" y="429.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                              @f.,........,@@@@@@@@L.........8        @         i@t@                                        </text>
+<text x="41.2" y="434.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                               @L.,...........,,.............@                @@@@.@                                        </text>
+<text x="41.2" y="440.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                @8.,..1..................;;..                 1.t@0@                                        </text>
+<text x="41.2" y="445.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                  @;.:@..................f@..                @@...@@                                        </text>
+<text x="41.2" y="450.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                   @f.,.:...................f                 G@..,@                                        </text>
+<text x="41.2" y="456.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                     @,;8...................0                 1@...@                                        </text>
+<text x="41.2" y="461.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                                                     @@f..Lt..C.......@.,,,@@                 @@.,.@                                        </text>
+<text x="41.2" y="467.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                         @G@@                        @i@@,1;..@...C1..:.,t@           @       @;.,.;                                        </text>
+<text x="41.2" y="472.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        1....@                      @t..@@0;:.....,:,;1@@             @      @G.,,..@                                       </text>
+<text x="41.2" y="477.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        ......0                     0,1,L@0 @@@@@@@@@@                       @..,,..@t@                                     </text>
+<text x="41.2" y="483.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                       @.......@                   @,i1;:@   @@                 :           @..,,,.,@..f@                                   </text>
+<text x="41.2" y="488.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                       @,......L                  @t:iii:@                     f,t         @..,,,,.;@....f@                                 </text>
+<text x="41.2" y="494.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        i......:                  @,iii;:@                    @;,L        @;.,,,,,.LL.,,...L@                               </text>
+<text x="41.2" y="499.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        C.......@                @f:ii1:f@                    @,,8       @;.,,,,,,.@;.,,,,...1@                             </text>
+<text x="41.2" y="504.8" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        @.......@             @Cf@,iiii,@8                    @,;       @1.,,,,,,..@..,,,,,,...i@                           </text>
+<text x="41.2" y="510.2" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        @.......@          @@f;.@0,1iii:@                     C,t      @:.,,,,,,,.;@.,,,,.,,,...@@                          </text>
+<text x="41.2" y="515.6" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        @.......@        @0t,::1@:;1iii:@                    @:,;     @:.,,,,,,,,.C8.,,,,.,..:@@@L                          </text>
+<text x="41.2" y="521.0" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        @.......@     @@f:,;i1,@8,ii111,@@                   0,@t   @@..,,,,,,,,..@,.,,.,,..0@@fL                           </text>
+<text x="41.2" y="526.4" class="ascii" textLength="537.6" lengthAdjust="spacingAndGlyphs">                        C.......@   @0fiiiiiiit@1i1i;;ii0@                   tiL   @G,.,,,,,,,,,.;0.,,,,,.:0@CCCC        @                  </text>
+  <rect x="20" y="70" width="580" height="60" fill="url(#scan)" class="scan"/>
+</g>
+
+<text x="26" y="552" class="label">SYSTEM / BUILDER</text>
+<rect x="20" y="560" width="580" height="400" rx="12" fill="#0D1117" stroke="#30363D"/>
+
+<g>
+  <circle cx="530" cy="600" r="34" fill="#3FB950" fill-opacity="0.05" stroke="#3FB950" stroke-opacity="0.55"/>
+  <circle cx="530" cy="600" r="22.4" fill="none" stroke="#3FB950" stroke-opacity="0.25"/>
+  <circle cx="530" cy="600" r="11.2" fill="none" stroke="#3FB950" stroke-opacity="0.25"/>
+  <path d="M496 600 H564 M530 566 V634" stroke="#3FB950" stroke-opacity="0.2"/>
+  <g class="sweep" style="transform-origin:530px 600px">
+    <path d="M530 600 L564 600 A34 34 0 0 0 556.0 578.1 Z" fill="url(#sweep)"/>
+    <line x1="530" y1="600" x2="564" y2="600" stroke="#3FB950" stroke-width="1.5"/>
+  </g>
+  <circle cx="544.3" cy="612.0" r="2.6" class="blip" style="animation-delay:0.0s"/>
+<circle cx="505.3" cy="611.5" r="2.6" class="blip" style="animation-delay:1.1s"/>
+<circle cx="525.9" cy="588.8" r="2.6" class="blip" style="animation-delay:2.3s"/>
+<circle cx="545.3" cy="581.8" r="2.6" class="blip" style="animation-delay:3.1s"/>
+</g>
+<text x="530" y="652" text-anchor="middle" class="label">AIS</text>
+<text x="40" y="600" class="head"><tspan fill="#58A6FF">farras</tspan><tspan fill="#8B949E">@</tspan><tspan fill="#1793D1">arch</tspan><tspan fill="#30363D"> --------------------------------------</tspan></text>
+<text x="40" y="621" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Name</tspan><tspan fill="#8B949E">: .........</tspan>Farras Fadhila</text>
+<text x="40" y="642" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Role</tspan><tspan fill="#8B949E">: .........</tspan>Software Engineer @ GEOSAT</text>
+<text x="40" y="663" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Based</tspan><tspan fill="#8B949E">: ........</tspan>Bogor, Indonesia</text>
+<text x="40" y="684" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">OS</tspan><tspan fill="#8B949E">: ...........</tspan>Arch Linux (btw)</text>
+<text x="40" y="705" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Shell</tspan><tspan fill="#8B949E">: ........</tspan>zsh + tmux + neovim</text>
+<text x="40" y="738.6" class="sec">- NOW.BUILDING <tspan fill="#30363D">----------------------------------</tspan></text>
+<text x="40" y="759.6" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Geotraking</tspan><tspan fill="#8B949E">: ...</tspan>Satellite AIS vessel tracking</text>
+<text x="40" y="780.6" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Bloom</tspan><tspan fill="#8B949E">: ........</tspan>Cozy life-dashboard PWA</text>
+<text x="40" y="801.6" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">fugotools</tspan><tspan fill="#8B949E">: ....</tspan>Local media &amp; PDF toolbox</text>
+<text x="40" y="835.2" class="sec">- STACK <tspan fill="#30363D">-----------------------------------------</tspan></text>
+<text x="40" y="856.2" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Back</tspan><tspan fill="#8B949E">: .........</tspan>PHP / Laravel / Filament / Python</text>
+<text x="40" y="877.2" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Front</tspan><tspan fill="#8B949E">: ........</tspan>Vue / TypeScript / Supabase</text>
+<text x="40" y="898.2" class="row"><tspan fill="#8B949E">.</tspan><tspan class="k">Fuel</tspan><tspan fill="#8B949E">: .........</tspan>Cireng, kopi, lo-fi</text>
+<rect x="40" y="918.8000000000001" width="22" height="16" rx="2" fill="#FF5F56"/><rect x="66" y="918.8000000000001" width="22" height="16" rx="2" fill="#FFBD2E"/><rect x="92" y="918.8000000000001" width="22" height="16" rx="2" fill="#27C93F"/><rect x="118" y="918.8000000000001" width="22" height="16" rx="2" fill="#58A6FF"/><rect x="144" y="918.8000000000001" width="22" height="16" rx="2" fill="#BC8CFF"/><rect x="170" y="918.8000000000001" width="22" height="16" rx="2" fill="#39C5CF"/><rect x="196" y="918.8000000000001" width="22" height="16" rx="2" fill="#E6EDF3"/><rect x="222" y="918.8000000000001" width="22" height="16" rx="2" fill="#8B949E"/>
+<text x="40" y="970.8000000000001" class="tag"><tspan fill="#8B949E">&gt; </tspan>fake software engineer, real satellites<tspan class="cursor">_</tspan></text>
+
+<text x="310.0" y="978" text-anchor="middle" class="label">SATELLITE DATA / LARAVEL / VUE / PYTHON / ARCH BTW</text>
+</svg>
